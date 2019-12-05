@@ -9,7 +9,7 @@
         <version>1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>koala-strategy-pattern</artifactId>
+    <artifactId>koala-strategy</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
