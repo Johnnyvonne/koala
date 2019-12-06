@@ -2,11 +2,11 @@ package nature.wildcode.koala.observer;
 
 public class PublicBoard implements Observer, DisplayElement {
     private String data;
-    private ZooSubject zooSubject;
+    private Subject subject;
 
-    public PublicBoard(ZooSubject zooSubject) {
-        this.zooSubject = zooSubject;
-        zooSubject.register(this);
+    public PublicBoard(Subject subject) {
+        this.subject = subject;
+        subject.register(this);
     }
 
     @Override
@@ -17,6 +17,6 @@ public class PublicBoard implements Observer, DisplayElement {
 
     @Override
     public void display() {
-        System.out.println(data);
+        System.out.println("PublicBoard : " + data);
     }
 }
