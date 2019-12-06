@@ -1,6 +1,6 @@
 package nature.wildcode.koala.strategy;
 
-public class Main {
+public class StrategyApplication {
     public static void main(String[] args) {
         AbstractDuck uglyLittle = new UglyLittleDuck();
         uglyLittle.setFly(new FlyWithRocket());
